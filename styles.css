@@ -1,0 +1,37 @@
+.poll {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.poll .question {
+    margin-bottom: 20px;
+}
+
+.poll .answers .answer {
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.poll .answers .answer:hover {
+    background-color: #f0f0f0;
+}
+
+.poll .answers .answer.selected {
+    background-color: #ffcc80; /* Change the background color for selected answer */
+}
+
+.poll .answers .answer .percentage-value {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.poll .answers .answer .percentage-bar{
+    background-color: #93ec98; 
+}
